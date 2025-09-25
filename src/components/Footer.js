@@ -8,13 +8,13 @@ const Footer = () => {
       initial={{ opacity: 0, y: 20 }}  
       whileInView={{ opacity: 1, y: 0 }}  
       transition={{ duration: 0.6 }}  
-      className="bg-gradient-to-r from-pink-600 to-rose-600 text-white py-12 mt-16"  
+      className="bg-gradient-to-r from-[#390b60] via-[#9b1b7d] to-[#e71d73] shadow-lg text-white py-12 mt-16"  
     >  
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">  
         <div className="space-y-4">  
           <div className="flex items-center space-x-2">  
-            <img src="https://utfs.io/f/2vMRHqOYUHc04g9TOID007fmwyReAgKCraUIWzEDZ6on58JN" alt="Logo" className="h-8 w-auto" />  
-            <h3 className="text-xl font-bold">GUILLOS Kitchen</h3>  
+            <img src='/logo/logoGK.svg' alt="Logo" className="h-16 md:h-20 lg:h-24 w-auto mx-auto drop-shadow-lg" />  
+             
           </div>  
           <p className="text-pink-100">Deliciosas tortas y dulces artesanales hechos con amor.</p>  
         </div>  
@@ -23,15 +23,15 @@ const Footer = () => {
           <div className="space-y-2 text-sm">  
             <div className="flex items-center space-x-2">  
               <Mail className="w-4 h-4" />  
-              <span>hola@guilloskitchen.com</span>  
+              <span>guilloskitchen@gmail.com</span>  
             </div>  
             <div className="flex items-center space-x-2">  
               <Phone className="w-4 h-4" />  
-              <span>+54 11 1234-5678</span>  
+              <span>+54 9 11 6461-5467</span>  
             </div>  
             <div className="flex items-center space-x-2">  
               <MapPin className="w-4 h-4" />  
-              <span>Av. Dulce 123, Buenos Aires</span>  
+              <span> Villa Crespo, CABA</span>  
             </div>  
           </div>  
         </div>  

@@ -19,12 +19,12 @@ const Navbar = () => {
   const Icon = ({ icon: IconComponent }) => <IconComponent className="w-5 h-5" />;  
 
   return (  
-    <nav className="bg-gradient-to-r from-pink-400 to-rose-500 shadow-lg sticky top-0 z-50">  
+    <nav className="bg-gradient-to-r from-[#390b60] via-[#9b1b7d] to-[#e71d73] shadow-lg sticky top-0 z-50 text-white">  
       <div className="max-w-7xl mx-auto px-4">  
         <div className="flex justify-between items-center py-4">  
           <div className="flex items-center space-x-2">  
-            <img src="https://utfs.io/f/2vMRHqOYUHc04g9TOID007fmwyReAgKCraUIWzEDZ6on58JN" alt="Logo" className="h-10 w-auto" />  
-            <span className="text-xl font-bold text-white">GUILLOS Kitchen</span>  
+            <img src='/logo/logoGK.svg' alt="Guillos Kitchen Logo" className="h-10 md:h-12 lg:h-14 w-auto drop-shadow-md shrink-0" />  
+              
           </div>  
           <div className="hidden md:flex items-center space-x-8">  
             {navItems.map((item) => (  

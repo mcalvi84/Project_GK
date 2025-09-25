@@ -1,30 +1,30 @@
 export const featuredProducts = [  
   {  
     id: 1,  
-    name: "Torta de Chocolate Clásica",  
+    name: "Cheescake de Frutos Rojos",  
     price: 2500,  
-    image: "https://via.placeholder.com/400x300/8B4513/FFFFFF?text=Torta+Chocolate",  
+    image: '/featured/prod_1.jpg', 
     description: "Deliciosa torta con capas de chocolate intenso y crema suave."  
   },  
   {  
     id: 2,  
-    name: "Cupcakes de Vainilla",  
+    name: "Choco Torta",  
     price: 800,  
-    image: "https://via.placeholder.com/400x300/FFB6C1/000000?text=Cupcakes+Vainilla",  
+    image: '/featured/prod_2.jpg',  
     description: "Cupcakes esponjosos con frosting de vainilla y sprinkles coloridos."  
   },  
   {  
     id: 3,  
-    name: "Macarons Mixtos",  
+    name: "Rogel",  
     price: 1200,  
-    image: "https://via.placeholder.com/400x300/FF69B4/FFFFFF?text=Macarons",  
+    image: '/featured/prod_3.jpg',  
     description: "Caja de macarons en sabores frutales y chocolate, perfectos para regalar."  
   },  
   {  
     id: 4,  
-    name: "Cheesecake de Frutos Rojos",  
+    name: "Kit Lemon Pie",  
     price: 3000,  
-    image: "https://via.placeholder.com/400x300/FF1493/000000?text=Cheesecake",  
+    image: '/featured/prod_4.jpg', 
     description: "Cheesecake cremoso con salsa de frutos rojos frescos."  
   }  
 ];  

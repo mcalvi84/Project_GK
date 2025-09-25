@@ -76,7 +76,7 @@ const ContactForm = () => {
         >  
           <Mail className="w-12 h-12 text-pink-500 mx-auto mb-4" />  
           <h3 className="font-bold text-gray-800">Email</h3>  
-          <p>hola@dulcedelight.com</p>  
+          <p>guilloskitchen@gmail.com</p>  
         </motion.div>  
         <motion.div  
           whileHover={{ scale: 1.05 }}  
@@ -84,7 +84,7 @@ const ContactForm = () => {
         >  
           <Phone className="w-12 h-12 text-pink-500 mx-auto mb-4" />  
           <h3 className="font-bold text-gray-800">Teléfono</h3>  
-          <p>+54 11 1234-5678</p>  
+          <p>+54 9 11 6461-5467</p>  
         </motion.div>  
         <motion.div  
           whileHover={{ scale: 1.05 }}  
@@ -92,7 +92,7 @@ const ContactForm = () => {
         >  
           <MapPin className="w-12 h-12 text-pink-500 mx-auto mb-4" />  
           <h3 className="font-bold text-gray-800">Dirección</h3>  
-          <p>Av. Dulce 123, Buenos Aires</p>  
+          <p>Villa Crespo, CABA</p>  
         </motion.div>  
       </div>  
     </div>  
